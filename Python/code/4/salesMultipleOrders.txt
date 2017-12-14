@@ -1,0 +1,8 @@
+Cheeky Spam 1.00
+Yonks Spam 4.00
+total = 5.00
+
+Cheerio Spam 1.00
+Smashing Spam 3.00
+total = 4.00
+

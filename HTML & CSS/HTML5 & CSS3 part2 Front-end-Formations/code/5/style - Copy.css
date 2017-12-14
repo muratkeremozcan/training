@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url ('OpenSansRegular-webfront.eot');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    transform: translate(20px, 30px) scale(1.2) skewX(-5deg) skew(10deg);
+    background-color: red;
+    color: yellow;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+body:hover {
+    background-color: blue;
+}

@@ -1,0 +1,3 @@
+$("featured").parent();
+
+$("tours").children();

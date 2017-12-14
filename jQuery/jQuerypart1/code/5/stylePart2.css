@@ -1,0 +1,15 @@
+.highlighted {
+    background-color: #563;
+    border-color: 1 px solid #967;
+}
+
+.vacation {
+    transition: top 0.2s;
+    -moz-transition: top 0.2s;
+    -o-transition: top 0.2s;
+    -webkit-transition: top 0.2s;
+}
+
+.highlighted .price {
+    top: -10px;
+}

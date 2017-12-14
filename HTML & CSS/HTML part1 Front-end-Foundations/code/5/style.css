@@ -1,0 +1,195 @@
+body {
+    background-color: #5F5F5F;
+    background-image: url(images/city.png);
+    background-position: top center;
+    background-repeat: repeat;
+    font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    color: rgba(48, 114, 48, 0.65)
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li,
+a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+body {
+    padding: 0 0 0 0;
+}
+
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #b56663
+}
+
+h1 {
+    color: white;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.nav {
+    color: white;
+}
+
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #ffffff url(images/blue.png) top left repeat;
+    line-height: 26px;
+}
+
+h1 {
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+
+ul {
+    padding: 0 0 0 50px;
+}
+
+ol {
+    padding: 0 0 0 50px;
+}
+
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background: #ffffff url(images/city.png) top left repeat;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
+
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photos li {
+    display: inline;
+    padding-left: 11px;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.featured-image {
+    width: 500px;
+    height: 246px;
+    background: #ffffff url(images/gobbler.png) top center no-repeat;
+    background-size: 100% 100%
+}
+
+.featured-image h3 {
+    margin: 0;
+    background-color: rgba(51, 51, 51, 0.16);
+    back-color: #ffffff;
+    padding: 5px 0 5px 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recipes img {
+    float: left;
+    padding-right: 10px;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+input[type=submit] {
+    width: 120px;
+    font-size: 15px;
+}
+
+input[type=text] {
+    border: 2px solid #7facaa;
+    font-size: 24px;
+    padding: 7px;
+}
+
+textarea {
+    width: 500px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #7facaa;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+input[type=checkbox],
+label[for=newsletter] {
+    display: inline;
+}

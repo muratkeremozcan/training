@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>jQuery Adventures</title>
+    <script src="jquery.js"></script>
+</head>
+
+<body background="City_Landscape_Background.jpeg">
+    <script src="3ajaxWithForms.js"></script>
+
+    <h1>Vacation Packages</h1>
+    <h2>jQuery Travels - Trip Booker</h2>
+
+    <div>
+
+        <fieldset>
+            <legend>
+                jQuery Travels – Trip Booker
+            </legend>
+            <form action="/book">
+                <p>
+                    <label for="destination">
+                Destination
+              </label>
+                    <select id="destination" name="destination">
+                <option value="0">Select Destination</option>
+                <option value="1">Hawaii</option>
+                <option value="2">Paris</option>
+                <option value="3">London</option>
+              </select>
+                </p>
+                <p>
+                    <label for="quantity">
+                Tickets
+              </label>
+                    <input id="quantity" min="1" name="quantity" type="number" value="1">
+                </p>
+            </form>
+
+
+
+            <p>
+                <input type="submit" value="Book Trip">
+            </p>
+        </fieldset>
+
+    </div>
+
+
+
+</body>
+
+</html>
